@@ -1,5 +1,5 @@
 let systemGeneratedNum = Math.floor(Math.random() * 10)+1;
-let userInputNum = +prompt("Enter Your Guess in Number here :");
+let userInputNum = +prompt("Guess the Number between 1 to 10 :");
 
 if(userInputNum === systemGeneratedNum){
     document.write(`<div class="card">
